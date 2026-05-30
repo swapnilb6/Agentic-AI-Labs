@@ -1,0 +1,18 @@
+crewai==0.126.0
+langchain==0.3.7
+langchain-openai==0.2.5
+chromadb==0.5.23
+sentence-transformers==3.1.1
+pandas==2.2.3
+numpy==2.1.2
+sqlalchemy==2.0.36
+openai==2.1.0
+tiktoken==0.8.0
+python-dotenv==1.0.1
+ 
+# Explicit telemetry compatibility
+opentelemetry-api==1.33.1
+opentelemetry-sdk==1.33.1
+opentelemetry-exporter-otlp==1.33.1
+opentelemetry-exporter-otlp-proto-common==1.33.1
+opentelemetry-semantic-conventions==0.54b1

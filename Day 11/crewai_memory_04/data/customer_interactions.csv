@@ -1,0 +1,11 @@
+customer_id,interaction_date,issue_type,conversation,agent_notes,satisfaction_score
+C101,2026-01-10,Billing,"Customer reported duplicate billing","Refund initiated",4
+C102,2026-01-12,Technical,"Login issue after password reset","Password sync fixed",5
+C103,2026-01-15,Shipping,"Delayed shipment complaint","Priority shipping offered",3
+C101,2026-02-05,Billing,"Requested invoice copy","Invoice emailed",5
+C104,2026-02-10,Technical,"Mobile app crashing","Bug escalated to engineering",2
+C105,2026-02-14,Subscription,"Requested plan upgrade","Premium plan activated",5
+C103,2026-02-20,Shipping,"Package arrived damaged","Replacement shipped",4
+C106,2026-03-01,Billing,"Incorrect tax calculation","Finance team notified",3
+C107,2026-03-05,Technical,"Unable to upload files","Storage permissions reset",4
+C108,2026-03-09,Subscription,"Cancellation request","Retention discount offered",2

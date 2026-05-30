@@ -1,0 +1,18 @@
+[
+  {
+    "topic": "refund_policy",
+    "description": "Refunds are processed within 5 business days."
+  },
+  {
+    "topic": "premium_subscription",
+    "description": "Premium plans include unlimited storage and analytics."
+  },
+  {
+    "topic": "shipping_policy",
+    "description": "Damaged products qualify for free replacement."
+  },
+  {
+    "topic": "technical_support",
+    "description": "Password reset issues are resolved through account synchronization."
+  }
+]

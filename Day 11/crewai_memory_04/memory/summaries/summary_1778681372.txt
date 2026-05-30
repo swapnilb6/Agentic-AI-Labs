@@ -1,0 +1,40 @@
+
+    SUMMARY GENERATED:
+    ------------------
+    Key customer concerns identified.
+    Repeated issues compressed.
+    Critical incidents preserved.
+    Long conversational noise removed.
+
+    ORIGINAL CONVERSATION:
+    
+    CUSTOMER QUERY:
+    
+    Customer says:
+    I was billed twice again and
+    my refund is still pending.
+    
+
+    SHORT TERM MEMORY:
+    
+    Customer says:
+    I was billed twice again and
+    my refund is still pending.
+    
+
+    VECTOR MEMORY:
+    [['Customer reported duplicate billing', 'Delayed shipment complaint', 'Cancellation request']]
+
+    SYMBOLIC MEMORY:
+    [('C101', 'Billing', 'Refund initiated'), ('C101', 'Billing', 'Invoice emailed'), ('C101', 'Billing', 'Refund initiated'), ('C101', 'Billing', 'Invoice emailed')]
+
+    EPISODIC MEMORY:
+    [{'event_id': 'E001', 'customer_id': 'C101', 'event': 'Duplicate billing reported', 'resolution': 'Refund processed', 'importance': 'high'}, {'event_id': 'E002', 'customer_id': 'C104', 'event': 'Mobile app crash', 'resolution': 'Escalated to engineering', 'importance': 'critical'}, {'event_id': 'E003', 'customer_id': 'C103', 'event': 'Damaged package received', 'resolution': 'Replacement shipment initiated', 'importance': 'medium'}]
+
+    SEMANTIC MEMORY:
+    [{'topic': 'refund_policy', 'description': 'Refunds are processed within 5 business days.'}, {'topic': 'premium_subscription', 'description': 'Premium plans include unlimited storage and analytics.'}, {'topic': 'shipping_policy', 'description': 'Damaged products qualify for free replacement.'}, {'topic': 'technical_support', 'description': 'Password reset issues are resolved through account synchronization.'}]
+    
+
+    Timestamp:
+    2026-05-13 22:09:32.588580
+    
