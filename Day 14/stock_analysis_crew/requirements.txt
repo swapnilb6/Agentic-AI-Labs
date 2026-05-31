@@ -1,0 +1,40 @@
+# ============================================================
+# Stock Analysis CrewAI — Requirements
+# Compatible with Python 3.10–3.13 | CrewAI 1.10+
+# Last verified: May 2026
+# ============================================================
+
+# ── Core Framework ─────────────────────────────────────────
+crewai>=1.10.1,<2.0.0          # Multi-agent orchestration framework
+crewai-tools>=0.38.0,<1.0.0   # Official CrewAI tool integrations
+
+# ── LLM Providers ──────────────────────────────────────────
+openai>=1.30.0,<2.0.0          # OpenAI GPT models (default provider)
+anthropic>=0.28.0,<1.0.0       # Anthropic Claude models (alternative)
+litellm>=1.40.0,<2.0.0         # Multi-provider LLM routing (used by crewai)
+
+# ── Financial Data ──────────────────────────────────────────
+yfinance>=0.2.40,<1.0.0        # Yahoo Finance data API
+pandas>=2.2.0,<3.0.0           # Data manipulation & analysis
+numpy>=1.26.0,<3.0.0           # Numerical computations
+
+# ── HTTP & Web ──────────────────────────────────────────────
+requests>=2.31.0,<3.0.0        # HTTP requests for news APIs
+httpx>=0.27.0,<1.0.0           # Async HTTP (used by openai/anthropic SDKs)
+
+# ── Configuration & Environment ─────────────────────────────
+python-dotenv>=1.0.0,<2.0.0    # Load .env files
+pydantic>=2.7.0,<3.0.0         # Data validation & settings management
+pydantic-settings>=2.3.0,<3.0.0  # Pydantic-based settings
+
+# ── Output & Reporting ──────────────────────────────────────
+rich>=13.7.0,<15.0.0           # Beautiful terminal output & progress display
+markdown>=3.6.0,<4.0.0         # Markdown processing
+
+# ── Utilities ───────────────────────────────────────────────
+click>=8.1.7,<9.0.0            # CLI argument parsing
+python-dateutil>=2.9.0,<3.0.0  # Date utilities
+
+# ── Testing ─────────────────────────────────────────────────
+pytest>=8.2.0,<9.0.0           # Test framework
+pytest-mock>=3.14.0,<4.0.0     # Mocking support

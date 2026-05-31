@@ -1,0 +1,72 @@
+{
+  "user_profile": {
+    "id": "USR_001",
+    "name": "Rahul Sharma",
+    "age": 32,
+    "occupation": "Software Engineer",
+    "monthly_income": 87000,
+    "dependents": 1,
+    "city": "Bengaluru",
+    "existing_investments": {
+      "mutual_funds_sip": 5000,
+      "ppf": 1000,
+      "fd": 50000,
+      "stocks": 30000
+    },
+    "existing_liabilities": {
+      "home_loan": 0,
+      "personal_loan": 0,
+      "credit_card_outstanding": 8000
+    },
+    "financial_goals": [
+      {"goal": "Emergency Fund", "target_amount": 300000, "timeline_months": 12},
+      {"goal": "International Vacation", "target_amount": 150000, "timeline_months": 18},
+      {"goal": "Car Purchase", "target_amount": 800000, "timeline_months": 36},
+      {"goal": "Retirement", "target_amount": 10000000, "timeline_months": 336}
+    ],
+    "risk_questionnaire": {
+      "q1_investment_experience": "intermediate",
+      "q2_loss_tolerance": "moderate",
+      "q3_investment_horizon": "long_term",
+      "q4_income_stability": "stable",
+      "q5_emergency_fund": "partial"
+    }
+  },
+  "evaluation_dataset": [
+    {
+      "id": "EVAL_001",
+      "query": "Can I afford a car loan of Rs 8 lakh?",
+      "expected_risk_profile": "moderate",
+      "expected_answer_contains": ["EMI", "income", "savings", "debt-to-income"],
+      "ground_truth_recommendation": "With current savings rate of ~25% and stable income, a car loan is feasible if EMI stays below 15% of income (~Rs 13,000/month). Consider 20% down payment to reduce EMI burden."
+    },
+    {
+      "id": "EVAL_002",
+      "query": "How can I reduce my food and dining expenses?",
+      "expected_category": "expense_optimization",
+      "expected_answer_contains": ["meal prep", "budget", "dining out", "food delivery"],
+      "ground_truth_recommendation": "Food & dining accounts for ~12% of monthly spending. Target reduction to 8% by limiting restaurant visits to 2x/week and using meal planning for weekdays."
+    },
+    {
+      "id": "EVAL_003",
+      "query": "What is my monthly savings rate?",
+      "expected_category": "analysis",
+      "ground_truth_value": "approximately 22-28% depending on month",
+      "expected_answer_contains": ["income", "expenses", "savings", "percent"]
+    },
+    {
+      "id": "EVAL_004",
+      "query": "Am I saving enough for retirement?",
+      "expected_category": "retirement_planning",
+      "expected_answer_contains": ["SIP", "equity", "NPS", "long-term", "corpus"],
+      "ground_truth_recommendation": "At 32 with Rs 10M retirement goal in 28 years, need ~Rs 8,500/month in equity mutual funds at 12% CAGR. Current SIP of Rs 5,000 is insufficient; recommend increasing by Rs 3,500/month."
+    },
+    {
+      "id": "EVAL_005",
+      "query": "Which months had highest spending?",
+      "expected_category": "pattern_analysis",
+      "ground_truth_value": "March (vacation booking) and June highest spending months",
+      "expected_answer_contains": ["March", "travel", "spending", "pattern"]
+    }
+  ]
+}

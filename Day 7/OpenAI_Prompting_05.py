@@ -9,7 +9,7 @@ from pathlib import Path
 
 # Set up OpenAI clien
 client = openai.OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")  # Make sure to set your API key
+    api_key=os.getenv("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")  # Make sure to set your API key
 )
 
 @dataclass

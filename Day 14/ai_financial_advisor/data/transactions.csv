@@ -1,0 +1,102 @@
+date,description,amount,type,category
+1/2/2024,SALARY CREDIT,75000,credit,income
+1/3/2024,AMAZON SHOPPING,-2340.5,debit,shopping
+1/5/2024,SWIGGY FOOD ORDER,-450,debit,food_dining
+1/7/2024,ELECTRICITY BILL,-1850,debit,utilities
+1/8/2024,NETFLIX SUBSCRIPTION,-649,debit,entertainment
+1/10/2024,SIP MUTUAL FUND,-5000,debit,investment
+1/11/2024,ZOMATO FOOD,-320,debit,food_dining
+1/12/2024,PETROL PUMP,-3200,debit,transport
+1/14/2024,RENT PAYMENT,-18000,debit,housing
+1/15/2024,GROCERIES DMART,-4500,debit,groceries
+1/17/2024,MEDICAL PHARMACY,-890,debit,healthcare
+1/18/2024,GYM MEMBERSHIP,-1200,debit,health_fitness
+1/19/2024,AMAZON PRIME,-1499,debit,entertainment
+1/20/2024,MOBILE RECHARGE,-599,debit,utilities
+1/22/2024,DINING OUT RESTAURANT,-2100,debit,food_dining
+1/23/2024,CAB UBER,-780,debit,transport
+1/25/2024,INSURANCE PREMIUM,-4500,debit,insurance
+1/26/2024,COFFEE CAFE,-340,debit,food_dining
+1/28/2024,FREELANCE INCOME,12000,credit,income
+1/30/2024,ATM WITHDRAWAL,-5000,debit,cash
+2/1/2024,SALARY CREDIT,75000,credit,income
+2/3/2024,ONLINE SHOPPING FLIPKART,-3200,debit,shopping
+2/5/2024,ZOMATO FOOD,-560,debit,food_dining
+2/7/2024,WATER BILL,-420,debit,utilities
+2/8/2024,SPOTIFY,-119,debit,entertainment
+2/10/2024,SIP MUTUAL FUND,-5000,debit,investment
+2/11/2024,SWIGGY FOOD,-290,debit,food_dining
+2/12/2024,CAB OLA,-650,debit,transport
+2/14/2024,RENT PAYMENT,-18000,debit,housing
+2/15/2024,BIG BASKET GROCERIES,-5200,debit,groceries
+2/17/2024,DOCTOR CONSULTATION,-800,debit,healthcare
+2/18/2024,DINING ANNIVERSARY,-4500,debit,food_dining
+2/19/2024,MOVIE TICKETS,-600,debit,entertainment
+2/20/2024,MOBILE BILL,-599,debit,utilities
+2/22/2024,AMAZON SHOPPING,-1800,debit,shopping
+2/24/2024,PETROL PUMP,-2800,debit,transport
+2/25/2024,INSURANCE LIC,-3500,debit,insurance
+2/26/2024,COFFEE STARBUCKS,-520,debit,food_dining
+2/28/2024,FREELANCE INCOME,8000,credit,income
+3/1/2024,SALARY CREDIT,75000,credit,income
+3/3/2024,ELECTRONICS PURCHASE,-12000,debit,shopping
+3/5/2024,FOOD DELIVERY,-480,debit,food_dining
+3/7/2024,ELECTRICITY BILL,-2100,debit,utilities
+3/8/2024,HOTSTAR SUBSCRIPTION,-899,debit,entertainment
+3/10/2024,SIP MUTUAL FUND,-5000,debit,investment
+3/11/2024,GROCERY STORE,-3800,debit,groceries
+3/12/2024,METRO CARD RECHARGE,-500,debit,transport
+3/14/2024,RENT PAYMENT,-18000,debit,housing
+3/15/2024,PHARMACY MEDICINES,-1200,debit,healthcare
+3/17/2024,GYM MEMBERSHIP,-1200,debit,health_fitness
+3/19/2024,VACATION BOOKING,-25000,debit,travel
+3/20/2024,MOBILE RECHARGE,-599,debit,utilities
+3/22/2024,RESTAURANT DINNER,-3200,debit,food_dining
+3/24/2024,PETROL PUMP,-3500,debit,transport
+3/25/2024,TERM INSURANCE,-5000,debit,insurance
+3/28/2024,SIDE INCOME TUTORING,6000,credit,income
+3/30/2024,ATM CASH,-3000,debit,cash
+4/1/2024,SALARY CREDIT,75000,credit,income
+4/3/2024,AMAZON SHOPPING,-4500,debit,shopping
+4/5/2024,ZOMATO,-390,debit,food_dining
+4/7/2024,UTILITY BILL,-1650,debit,utilities
+4/10/2024,SIP MUTUAL FUND,-5000,debit,investment
+4/11/2024,SWIGGY,-450,debit,food_dining
+4/12/2024,CAB SERVICE,-920,debit,transport
+4/14/2024,RENT PAYMENT,-18000,debit,housing
+4/15/2024,WEEKLY GROCERIES,-4100,debit,groceries
+4/17/2024,HEALTH CHECKUP,-2500,debit,healthcare
+4/20/2024,MOBILE BILL,-599,debit,utilities
+4/22/2024,ONLINE COURSE,-3999,debit,education
+4/24/2024,PETROL,-2900,debit,transport
+4/26/2024,CAFE COFFEE DAY,-280,debit,food_dining
+4/28/2024,FREELANCE,-15000,credit,income
+4/30/2024,DINING OUT,-2800,debit,food_dining
+5/1/2024,SALARY CREDIT,75000,credit,income
+5/3/2024,FLIPKART SHOPPING,-2100,debit,shopping
+5/5/2024,FOOD APP,-520,debit,food_dining
+5/7/2024,ELECTRICITY,-1950,debit,utilities
+5/10/2024,SIP MUTUAL FUND,-5000,debit,investment
+5/12/2024,PETROL PUMP,-3100,debit,transport
+5/14/2024,RENT PAYMENT,-18000,debit,housing
+5/15/2024,GROCERY STORE,-4800,debit,groceries
+5/17/2024,DENTIST,-3500,debit,healthcare
+5/19/2024,BOOK PURCHASE,-1200,debit,education
+5/20/2024,MOBILE RECHARGE,-599,debit,utilities
+5/22/2024,RESTAURANT,-2600,debit,food_dining
+5/25/2024,INSURANCE PREMIUM,-4500,debit,insurance
+5/28/2024,BONUS INCOME,20000,credit,income
+5/30/2024,GYM,-1200,debit,health_fitness
+6/1/2024,SALARY CREDIT,75000,credit,income
+6/3/2024,AMAZON,-3400,debit,shopping
+6/5/2024,ZOMATO,-410,debit,food_dining
+6/7/2024,WATER ELECTRICITY BILL,-2200,debit,utilities
+6/10/2024,SIP MUTUAL FUND,-5000,debit,investment
+6/12/2024,UBER,-870,debit,transport
+6/14/2024,RENT PAYMENT,-18000,debit,housing
+6/15/2024,DMART GROCERIES,-5100,debit,groceries
+6/17/2024,MEDICAL,-980,debit,healthcare
+6/20/2024,MOBILE BILL,-599,debit,utilities
+6/22/2024,DINING,-3100,debit,food_dining
+6/24/2024,FLIGHT TICKET,-8500,debit,travel
+6/28/2024,FREELANCE INCOME,10000,credit,income

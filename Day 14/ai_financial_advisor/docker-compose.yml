@@ -1,0 +1,50 @@
+# docker-compose.yml — AI Financial Advisor
+# ════════════════════════════════════════════════════════════════
+# Services:
+#   api       → FastAPI backend  (port 8000)
+#   streamlit → Streamlit UI     (port 8501)
+# ════════════════════════════════════════════════════════════════
+
+version: "3.9"
+
+services:
+
+  # ── FastAPI Backend ──────────────────────────────────────────
+  api:
+    build: .
+    container_name: fin_advisor_api
+    command: uvicorn api:app --host 0.0.0.0 --port 8000 --workers 2
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data:ro          # Mount data directory read-only
+      - ./logs:/app/logs             # Persist logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+  # ── Streamlit UI ──────────────────────────────────────────────
+  streamlit:
+    build: .
+    container_name: fin_advisor_ui
+    command: streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data:ro
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+networks:
+  default:
+    name: fin_advisor_network
